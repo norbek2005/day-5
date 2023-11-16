@@ -1,0 +1,59 @@
+.fonts {
+    padding: 140px 0 0;
+    padding-bottom: 151px;
+    background-color: #012F34;
+    background-repeat: no-repeat;
+    background-image: url(../img/fonts-bg.svg);
+    background-position: left top;
+}
+
+.fonts__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fonts__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+@media screen and (max-width:1000px) {
+
+    .fonts__title {
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    .fonts {
+        padding: 88px 0 0;
+        padding-bottom: 88px;
+    }
+
+    .fonts__list {
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width:720px) {
+
+    .fonts {
+        background-repeat: no-repeat;
+        background-image: url(/img/fonts-sec-bg.svg);
+        background-position: left top;
+    }
+
+}
